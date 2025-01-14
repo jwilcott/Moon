@@ -9,16 +9,16 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-#weather, #moon-phase{
+#weather, #moon-phase {
     color: rgb(224, 224, 224);
     font-family: "freight-sans-pro-lights", sans-serif;
     line-height: .4;
-    font-size: 25px;
+    font-size: 28px;
 }
 
-#weather {
+#weather,#moon-rise {
     color: rgb(255, 244, 187);
     font-family: "freight-sans-pro-hairline", sans-serif;
-    font-size: .8em;
+    font-size: .9em;
 }
 
