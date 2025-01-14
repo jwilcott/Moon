@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(44, 44, 44);
     margin: 20px; /* Adds a margin of 20 pixels from the edge */
     border: 1px solid rgb(255, 226, 84); /* Adds a border */
     border-radius: 40px; /* Rounds the border corners */
@@ -21,3 +21,4 @@ body {
     font-family: "freight-sans-pro-hairline", sans-serif;
     font-size: .8em;
 }
+

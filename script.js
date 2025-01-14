@@ -19,3 +19,6 @@ fetch(`https://api.weatherapi.com/v1/astronomy.json?key=${apiKey}&q=${city}`)
         document.getElementById('moon-phase').innerText = `Moon Phase: ${moonPhase}`;
     })
     .catch(error => console.error('Error:', error));
+
+
+
