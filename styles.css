@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(28, 28, 28);
+    margin: 20px; /* Adds a margin of 20 pixels from the edge */
+    border: 2px solid rgb(255, 226, 84); /* Adds a border */
+    border-radius: 20px; /* Rounds the border corners */
+    padding: 20px; /* Adds padding inside the border */
+    height: calc(100vh - 40px); /* Sets the height to fill the viewport, accounting for margin */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#weather, #moon-phase{
+    color: rgb(224, 224, 224);
+    font-family: "freight-sans-pro-lights", sans-serif;
+    line-height: .4;
+    font-size: 25px;
+}
+
+#weather {
+    color: rgb(255, 244, 187);
+    font-family: "freight-sans-pro-hairline", sans-serif;
+    font-size: .8em;
+}

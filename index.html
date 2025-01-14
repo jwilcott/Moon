@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moon</title>
+    <title>Moon Phase</title>
     <link rel="apple-touch-icon" href="images/MoonMobileWebAppIcon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="https://use.typekit.net/hsk7ovj.css">
 </head>
+
 <body>
     <div style="text-align: center;">
-        <h1 style="font-size: 10em;">🌘</h1>
+        <img id="moon-image" src="images/moon.png" alt="Moon phase image" style="width: 200px;">
+        <p id="moon-phase">Loading moon phase...</p>
+        <p id="weather">Loading weather...</p>
     </div>
-    <style>
-        body {
-            background-color: #2e2e2e;
-            color: white;
-        }
-    </style>
 </body>
 </html>
